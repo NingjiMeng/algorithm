@@ -12,7 +12,7 @@ data = []
 for i in range(0,len(data_x)):
     data.append([data_x[i],data_y[i]])
 data = np.array(data)
-
+#带带我
 
 def point_distance(pointA , pointB):
     return np.sqrt(np.sum(np.power((pointA-pointB),2)))
