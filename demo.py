@@ -23,7 +23,7 @@ def create_center_1(data,k):
     center_point = [data[i] for i in center_index]
     return center_point
 
-#fxsdwdw
+#sdwdw
 def create_center_2(data,k):
     center_index = random.sample(range(0,len(data)),1)
     center_point = [data[center_index[0]].tolist()]
